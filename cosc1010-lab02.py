@@ -3,22 +3,22 @@
 # Submission Date 09/17/2024
 # Lab 02 
 # Lab Section:13 
-# Sources, people worked with, help given to: 
+# Sources, people worked with, help given to: (discuss.python.org to help with math in f strings)
 
 your_variable_here = "when you see this, replace it with your code"
 
 ## Section ONE
 
 # Complete the following print statement to print out "Hello, COSC1010"
-print(Hello, COSC1010)
+print('Hello, COSC1010')
 
 # Assign the string above to a variable named hello_message and print that variable
 hello_message = "Hello, COSC1010"
-print("Hello_message")
+print(hello_message)
 
 # Assign the string "cowboy joe" to a variable, and print that variable with title casing
 mascot_UW = "cowboy joe"
-print("mascot_UW.title()")
+print(mascot_UW.title())
 
 # Complete the following f-string print message 
     # You will need to create your own variables and insert them  
@@ -31,12 +31,14 @@ print(f"The {university} was founded in {founding}")
     # Create two variables x and y and assign them the values 5 and 10 respectively 
     # Complete the following print statements using your variables
     #All math must be done within the braces in the f-strings
+
 x = 5
 y = 10
-print(f"x + y = {p1}")
-print(f"x - y = {p2}")
-print(f"x * y = {p3}")
-print(f"x / y = {p4}")
+print(x+y)
+print(f"x + y = {x+y}")
+print(f"x - y = {x-y}")
+print(f"x * y = {x*y}")
+print(f"x / y = {x/y}")
 
 # String concatenation 
     # Finally we will take a look at string concatenation
@@ -50,4 +52,4 @@ print(f"x / y = {p4}")
 first_name = "Luna"
 last_name = "Perez"
 space = " "
-print(f"{first_name}+{space}+{last_name}")
+print(first_name + space + last_name)
